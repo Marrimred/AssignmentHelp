@@ -1,7 +1,5 @@
 public class ElectronicDB {
-	 static int Height = 800;
-	 static int Width = 1000;
-	 
+ 
 	 public static void main(String[] args) {
 		 long startTime = System.nanoTime();
 		 System.out.println("Starting DB...");
