@@ -26,12 +26,12 @@ public class ElectronicDB {
 					System.out.println("Enter Date");
 					String Date = inputScanner.nextLine();
 					System.out.println("Enter Amount Of Copies");
-					String Copies = inputScanner.nextLine();
+					int Copies = Integer.parseInt(inputScanner.nextLine());
 					System.out.println("Enter Runtime In Mins");
-					String Runtime = inputScanner.nextLine();
+					int Runtime = Integer.parseInt(inputScanner.nextLine());
 					System.out.println("Enter Score");
-					String Score = inputScanner.nextLine();
-                    			BluerayDB.add(Key,Name,Date,Copies,Runtime,Score);
+					int Score = Integer.parseInt(inputScanner.nextLine());
+                    			BluerayDB.Add(Key,Name,Date,Copies,Runtime,Score);
                    		 	break;
                 		case "E":
                     			exit = true; 
