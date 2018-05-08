@@ -10,16 +10,20 @@ public class ElectronicDB {
 		 System.out.println();
 		 System.out.println();
 		 
+		 Boolean exit = false;
 		 //Start CLI - Command Line Interface
-		 
+		 while(!exit)
+		 {
 		 
 		 //Get Input Here --
 		 
 		 
 		 //Add files to DB with Add
 		 
-		 
+		 }
 		 //End CLI
+		 
+		 BluerayDB.WriteFile();
 	}
 
 }
